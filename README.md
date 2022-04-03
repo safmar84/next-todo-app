@@ -2,12 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server (with or without mock):
 
 ```bash
-npm run dev
-# or
 yarn dev
+# or
+yarn dev-mock
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
