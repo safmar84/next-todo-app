@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "mock": "json-server --watch ./mock/mock-data.json --port 3001",
-    "dev-mock": "concurrently --kill-others \"yarn mock\" \"yarn dev\""
+    "mock": "json-server --watch ./mock/mock-data.json --port 3001"
   },
   "dependencies": {
     "@emotion/cache": "^11.7.1",
@@ -28,8 +27,6 @@
     "@types/react-dom": "17.0.14",
     "eslint": "8.12.0",
     "eslint-config-next": "12.1.4",
-    "typescript": "4.6.3",
-    "concurrently": "^7.0.0",
-    "json-server": "^0.17.0"
+    "typescript": "4.6.3"
   }
 }
