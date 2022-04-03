@@ -6,6 +6,7 @@ import { Todo } from '../types/types'
 
 
 const TodoListItem = ({ todo, handleOnClick }: { todo: Todo; handleOnClick: MouseEventHandler<HTMLLIElement> | undefined }): JSX.Element => {
+	// nothing here, this is dumb component
 	return (
 		<ListItem disablePadding onClick={handleOnClick}>
 			<ListItemButton>
